@@ -22,7 +22,9 @@ This returns:
       }
     }
 
-use [jq](https://stedolan.github.io/jq/) to parse out the sha:
+The commit hash (or sha) is unique and serves as an indicator of changes to the archive.
+
+use [jq](https://stedolan.github.io/jq/) to parse out the commmit hash:
 
     $ curl -s https://api.github.com/repos/LACMTA/gtfs_bus/git/refs/heads/master | jq '.object.sha'
     "6676ac465a5c36c8b771787e1a6be7bf5aec0935"
