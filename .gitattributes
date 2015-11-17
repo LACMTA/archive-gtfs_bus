@@ -1,1 +1,13 @@
-stop_times.txt filter=lfs diff=lfs merge=lfs -text
+# MS Office
+*.docx  filter=zip
+*.xlsx  filter=zip
+*.pptx  filter=zip
+# OpenOffice
+*.odt   filter=zip
+*.ods   filter=zip
+*.odp   filter=zip
+# Misc
+*.mcdx  filter=zip
+*.slx   filter=zip
+# GTFS
+*.txt  filter=zip
