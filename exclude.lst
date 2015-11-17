@@ -1,0 +1,6 @@
+*CVS*
+*Thumbs.db*
+*.svn*
+.DS_Store
+.git*
+exclude.lst
