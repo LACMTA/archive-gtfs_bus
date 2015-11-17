@@ -11,3 +11,4 @@
 *.slx   filter=zip
 # GTFS
 *.txt  filter=zip
+*.zip diff=zip
